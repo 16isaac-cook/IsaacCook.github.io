@@ -1,0 +1,162 @@
+/*
+Palette
+#F3C3CE
+#E898AB
+#C36279
+#9C354D
+#731229
+*/
+
+* { 
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #731229;
+    color: #731229;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    color: #C36279;
+}
+
+a:visited {
+    color: #C36279;
+}
+
+a:hover {
+    color: #E898AB;
+}
+
+a:active {
+    color: #C36279;
+}
+
+nav a:link {
+    color: #E898AB;
+}
+
+nav a:visited {
+    color: #E898AB;
+}
+
+nav a:hover {
+    color: #731229;
+    background-color: #E898AB;
+}
+
+header {
+    padding: 100px 0px 15px 15px;
+    margin: 0px;
+    background-color: #E898AB;
+    background-image: url(images/camera.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav {
+    float: left; 
+    width: 100px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 20px; 
+    display: block;
+    background-color: #731229;
+    text-align: center;
+    transition: background-color 2s linear;
+}
+
+div {
+    display: inline-block;
+    background-color: #F3C3CE;
+    background-image: linear-gradient(to bottom, #E898AB, #F3C3CE);
+    padding-left: 15px;
+    width: 100%;
+}
+
+main {
+    display: inline-block;
+    background-color: #F3C3CE;
+    padding-left: 15px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+footer {
+    display: inline-block;
+    background-color: #F3C3CE;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+table {
+    border-spacing: 0px;
+    width: 50%;
+    border: 2px solid #C36279;
+}
+
+tr:first-of-type {
+    background-color: #C36279;
+    color: #F3C3CE;
+}
+
+tr:nth-of-type(even) {
+    background-color: #E898AB;
+}
+
+label { 
+    display: block; 
+    font-weight: bold;
+}
+
+input { 
+    display: block;
+    margin-bottom: 20px; 
+    border: 1px solid #C36279;
+    padding: 3px 3px 3px 2px;
+}
+
+textarea {
+    border: 1px solid #C36279;
+    padding: 3px 3px 3px 2px;
+}
+
+#current-page {
+    color: #731229;
+    background-color: #C36279;
+}
+
+#current-page:hover {
+    color: #731229;
+    background-color: #E898AB;
+}
+
+.container {
+    display: inline-block;
+    padding: 0px;
+    width: calc(100% - 100px);
+}
